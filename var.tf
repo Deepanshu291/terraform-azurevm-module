@@ -18,13 +18,13 @@ variable "source_image_name" {
 
 
 variable "source_image_url" {
- default = "/subscriptions/d77e2983-68f3-474f-b7d1-460f5038891f/resourceGroups/Coderserver-RG/providers/Microsoft.Compute/galleries/codeserverdevx/images/codexdev"
+ default = "/subscriptions/yoursubciptid/resourceGroups/Coderserver-RG/providers/Microsoft.Compute/galleries/codeserverdevx/images/codexdev"
   description = "source Vm image URL"
   type = string
 }
 
 variable "subscription_id" {
   type = string
-  default = "d77e2983-68f3-474f-b7d1-460f5038891f"
+  default = ""
 }
 
